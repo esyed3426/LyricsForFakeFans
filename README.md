@@ -15,5 +15,7 @@ hanged for the crime of being a fake fan. (Also Im poor and dont have the data t
 
 ## How did I make this: (idk really)
 
-I used python to get into Spotify with its oAuth, then I parsed all that data into an array of custom Track objects 
-with numPy, and from there, got around the max SMS character count by splitting the data into separate messages. 
+I used python to get albums from Spotify based on user input, then I stored all the tracks in the album into an array of custom 
+abstract objects, and when adding them in, I got the lyrics for them using the Genius API and did some error handling there in the case
+of None responses. I then parsed the lyrics for each song into segments of max 1550 to get around that max SMS character count of 1600. 
+After that, I sent each songs lyrics to my phone number using the Twilio API.

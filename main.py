@@ -82,13 +82,11 @@ def getAlbumLyrics():
         message = "\n" + f"{track.getArtist()} - {track.getTitle()}" + "\n" + track.getLyrics()
         parts = [message[i:i+1550] for i in range(0, len(message), 1550)]
         for part in parts:   
-            print(len(part))    
             client.messages.create(
                body=part,
-               from_='+12054902704',
-               to="+14378810757"
-            )
-            
+               from_=os.getenv("TWILIO_PHONE_NUMBER"),
+               to=os.getenv("MY_PHONE_NUMBER")
+            )      
 
 getAlbumLyrics()
 
