@@ -21,4 +21,4 @@ hanged for the crime of being a fake fan. (Also Im poor and dont have the data t
 I used python to get albums from Spotify based on user input, then I stored all the tracks in the album into an array of custom 
 abstract objects, and when adding them in, I got the lyrics for them using the Genius API and did some error handling there in the case
 of None responses. I then parsed the lyrics for each song into segments of max 1550 to get around that max SMS character count of 1600. 
-After that, I sent each songs lyrics to my phone number using the Twilio API.
+After that, I sent each songs lyrics to my phone number using the Twilio API. Bing bada boom mr worldwide as i step in the room, dale
