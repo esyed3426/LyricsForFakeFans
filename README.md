@@ -4,7 +4,8 @@
 
 This is a repo for a project that allows a user to enter an album name and then the app will send all of the lyrics 
 for every song on the album straight to your phone number via SMS so you can secretly have the lyrics out during 
-concerts without people noticing hehe.
+concerts without people noticing hehe. Just run the main file and enter an album name before you leave, and when you
+get to the concert you have everything you need to stay undercover in your pocket.
 
 ## Why did I made it
 
