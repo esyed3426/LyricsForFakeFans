@@ -14,7 +14,7 @@ But best believe ya boi gonna be singing like his life depends on it for the vib
 so I have to have lyrics on me. To stay undercover, I can't use Spotify or Genius to read the lyrics because then I'll be ousted and 
 hanged for the crime of being a fake fan. (Also Im poor and dont have the data to spend searching up lyrics) 
 
-### I am actually going to be using this, once the concert's over Ill send a picture
+### I am actually going to be using this, once the concerts over I'll send a picture
 
 ## How I made it (idk really)
 
